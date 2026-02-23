@@ -16,4 +16,5 @@ function calculadoraIMC(peso, altura){
         console.log("Classificação: Obesidade")
     }
 }
+
 calculadoraIMC(80, 1.84)
