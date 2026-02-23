@@ -5,5 +5,5 @@ function calculajurosComposto(capital, taxa, tempo){
     return montante;
 }
 
-let conta1 = calculajuroSimples(5000, 4, 6);
+let conta1 = calculajurosComposto(5000, 4, 6);
 console.log("O montante é R$" + conta1.toFixed(2));
