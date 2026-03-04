@@ -15,6 +15,12 @@ if (idade >= 18) {
     }
 }else if (idade >= 16){
     console.log(`Olá ${nome}, você precisa estar acompanhado.. `);
+    const  jovem = readline.keyInYN("Deseja refri? ");
+    if (jovem){
+        console.log("Temos pepsi e coca! ");
+    }else {
+        c
+    }
 } else{
     console.log(`Sinto muito ${nome}, apenas maiores de 16 anos... `)
 }
