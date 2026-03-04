@@ -12,7 +12,7 @@ if (idade <= 18) {
         console.log("Garçom á caminho! ");
     } else{
         console.log("Temos sucos também");
-    }
+}
 } else if (idade >=16){
     console.log(`Olá ${nome}, você prescisa estar acompanhado de um responsável! `);
 } else{
