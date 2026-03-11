@@ -1,6 +1,14 @@
-let corSemaforo = verde;
+let corSemaforo = "verde";
+let cor = "amarelo";
 let veiculoEmergencia = true;
 
 if (veiculoEmergencia == true){
     console.log("ALERTA: anbulância detectada! todos os sinais fechados. CRUZAMENTO LIVRE.");
+} else if(corSemaforo == verde){
+    console.log("Pode passar! Siga com cuidado.");
+} else if(cor == amarelo){
+    console.log("Atenção! Reduza a velocidade e prepare-se para parar.")
+}
+else{
+    console.log("PARE! Aguarde o sinal verde.")
 }
