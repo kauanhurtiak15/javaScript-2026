@@ -19,7 +19,7 @@ if (idade >= 18) {
     if (jovem){
         console.log("Temos pepsi e coca! ");
     }else {
-        c
+        
     }
 } else{
     console.log(`Sinto muito ${nome}, apenas maiores de 16 anos... `)
